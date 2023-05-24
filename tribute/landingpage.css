@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.title-wrapper {
+  align-self: flex-start;
+  margin-left: 20px;
+}
+
+#title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.intro {
+  font-weight: bold;
+}
+
+.centered-image {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+}
+
+.image-caption {
+  font-size: 12px;
+}
+
+.content-box {
+  display: flex;
+  margin-top: 20px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+}
+
+.life-list,
+.achievements-list {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.source-link {
+  display: block;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+body{
+  background-image: url(tropical-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
